@@ -70,6 +70,12 @@ async def main() -> None:
             try:
                 if service_component_name == "connection":
                     await execute_service_command(d, service_component_method, service_command_parts)
+                elif service_component_name == "motor":
+                    await execute_service_command(d.motor, service_component_method, service_command_parts)
+                elif service_component_name == "sound":
+                    await execute_service_command(d.sound, service_component_method, service_command_parts)
+                elif service_component_name == "lighting":
+                    await execute_service_command(d.lighting, service_component_method, service_command_parts)
                 else:
                     print('Unknown service component: %s' % service_component_name)
             except ValueError as err:

@@ -21,4 +21,8 @@ class LionChiefBluetoothCommands(object):
     SetBellPitch = 0x44
     PlayVoiceLine = 0x4d
     SetSpeed = 0x45
-    SetReverseState = 0x46
+    SetMovementDirection = 0x46
+    Disconnect = 0x4b
+    SetSteamVolume = 0x4c
+    SetEffectVolume = 0x44
+    SetLightsState = 0x51
