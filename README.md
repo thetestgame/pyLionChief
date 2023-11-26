@@ -1,5 +1,3 @@
-<img src="https://static.wikia.nocookie.net/frstarwars/images/e/e4/Logo_Droid_Depot_SWGE.png/revision/latest?cb=20200730141444" align="right" width="150">
-
 # PyLionChief
 
 PyLionChief is an open-source project that aims to provide Python access to the Lionel's LionChief line of trains.
