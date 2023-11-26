@@ -18,7 +18,7 @@ pip install pylionchief
 
 To install PyLionChief from source, follow these steps:
 
-1. Download the source code from the [GitHub repository](https://github.com/thetestgame/pydroid).
+1. Download the source code from the [GitHub repository](https://github.com/thetestgame/pyLionChief).
 2. Extract the contents of the archive to a directory of your choice.
 3. Navigate to the directory containing the `setup.py` script.
 4. Run the following command:
